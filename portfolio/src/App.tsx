@@ -1,8 +1,14 @@
+import Me from "./components/me";
+import About from "./components/about";
+import Navbar from "./components/navbar";
+
 const App = () => {
   return (
-    <div className="App">
-      <h1>Hola</h1>
-    </div>
+    <>
+      <Navbar />
+      <Me />
+      <About />
+    </>
   );
 };
 
