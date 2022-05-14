@@ -14,11 +14,9 @@ import { Project } from "./types";
 import { BsGithub } from "react-icons/bs";
 import { useState, useEffect } from "react";
 import { BiLinkExternal } from "react-icons/bi";
-
-const Desktop = () => {
+const Mobile = () => {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(false);
-
   useEffect(() => {
     const getData = async () => {
       setLoading(false);
@@ -30,27 +28,27 @@ const Desktop = () => {
     getData();
     console.log(projects);
   }, [loading]);
-  return (
-    <>
-      <Heading mx="20" my="10">
+  return <>
+  
+  <Heading mx="10" my="5">
         Projects
       </Heading>
-      <Flex flexWrap={"wrap"} mx="20" justifyContent={"space-between"}>
+      <Flex flexWrap={"wrap"} mx="20" flexDir={"column"} justifyContent={"center"} textAlign={"center"}>
         {projects.length &&
           projects?.map((project: Project) => (
             <>
               {" "}
-              <Center my={6}>
+              <Center my={6} >
                 <Box
-                  maxW={"380px"}
-                  h={"615px"}
+                  maxW={"300px"}
+                  h={"350px"}
                   w={"full"}
                   bg={useColorModeValue("white", "gray.900")}
                   boxShadow={"2xl"}
                   rounded={"md"}
                   p={6}
                   overflow={"hidden"}
-                  mr="3"
+                
                   transitionProperty={"transform"}
                   transitionDuration={"0.8s"}
                   _hover={{
@@ -58,32 +56,32 @@ const Desktop = () => {
                   }}
                 >
                   <Box
-                    h={"210px"}
-                    bg={"gray.100"}
+                    h={"150px"}
+                    bg={"white"}
                     mt={-6}
                     mx={-6}
-                    mb={40}
+                    mb="30"
                     pos={"relative"}
                   >
-                    <Image src={project?.cover} h={"340px"} />
+                    <Image src={project?.cover} h={"170px"} />
                   </Box>
                   <Stack>
                     <Text
                       color={"black"}
                       textTransform={"uppercase"}
                       fontWeight={800}
-                      fontSize={"sm"}
+                      fontSize={"xs"}
                       letterSpacing={1.1}
+                      h="20px"
+                      overflow={"hidden"}
                     >
                       {project?.name}
                     </Text>
 
-                    <Text color={"gray.500"} h="72px">
-                      {project?.made}
-                    </Text>
+                  
                   </Stack>
-                  <a target="_blank" href={project?.page} >
-                    <Box my="5" >
+                  <a target="_blank" href={project?.page}>
+                    <Box my="5">
                       <Button
                         rightIcon={
                           <Box mt="1">
@@ -94,7 +92,7 @@ const Desktop = () => {
                         bg="#FFDE59 "
                         variant="solid"
                       >
-                       {project?.id === 3 ?"Page coming soon...":"Visit Page"} 
+                        Visit Page
                       </Button>
                     </Box>
                   </a>
@@ -115,7 +113,6 @@ const Desktop = () => {
             </>
           ))}
       </Flex>
-    </>
-  );
+  </>;
 };
-export default Desktop;
+export default Mobile;

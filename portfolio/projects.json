@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Responsive Landing Page",
+      "cover": "./src/assets/landing.jpg",
+      "made": "Made with React, Next js, Typescript, Javascript and Chakra UI.",
+      "page": "https://bookmark-landing-phi.vercel.app/",
+      "code": "https://github.com/7Fernando/bookmark-landing",
+      "description": "Winter Is Coming"
+    },
+    {
+      "id": 2,
+      "name": "BookFlix",
+      "cover": "./src/assets/BOOKFLIX.png",
+      "made": "Made with React, Redux, Typescript, Javascript, Express, Prisma, Node js, PostgreSQL and Chakra UI.",
+      "page": "https://bookflix-peach.vercel.app/",
+      "code": "https://github.com/7Fernando/BooksApp-Front",
+      "description": "Winter Is Coming"
+    },
+    {
+      "id": 3,
+      "name": "Canine world",
+      "cover": "./src/assets/dogApp.jpg",
+      "made": "Made with React, Redux, Javascript, Express, Node js, Sequelize, PostgreSQL and CSS Modules.",
+      "page": "https://github.com/7Fernando/Dogs-App",
+      "code": "https://github.com/7Fernando/Dogs-App",
+      "description": "Winter Is Coming"
+    }
+  ]
+}

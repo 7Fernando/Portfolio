@@ -23,7 +23,7 @@ const Mobile = () => {
             src={profile}
             borderRadius="full"
             boxSize="155px"
-            bg="#5271FF"
+            bg="#FFDE59"
           />
         </Flex>
       </Box>
