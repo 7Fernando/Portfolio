@@ -28,7 +28,7 @@ const Desktop = () => {
     };
 
     getData();
-    console.log(projects);
+   
   }, [loading]);
   return (
     <>

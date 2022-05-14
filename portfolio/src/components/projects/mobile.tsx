@@ -26,7 +26,7 @@ const Mobile = () => {
     };
 
     getData();
-    console.log(projects);
+  
   }, [loading]);
   return <>
   
