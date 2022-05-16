@@ -1,7 +1,9 @@
 import Me from "./components/me";
 import About from "./components/about";
+import Footer from "./components/footer";
 import Skills from "./components/skills";
 import Navbar from "./components/navbar";
+import Contact from "./components/contact";
 import Projects from "./components/projects";
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
       <About />
       <Projects />
       <Skills />
+      <Contact />
+      <Footer />
     </>
   );
 };

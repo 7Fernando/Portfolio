@@ -1,4 +1,4 @@
-import profile from "../../assets/profile.png";
+import profile from "/assets/profile.png";
 import { Box, Flex, Center, Heading, Image, Text } from "@chakra-ui/react";
 
 const Mobile = () => {

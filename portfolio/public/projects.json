@@ -14,7 +14,7 @@
       "name": "BookFlix",
       "cover": "./assets/bookflix.png",
       "made": "Made with React, Redux, Typescript, Javascript, Express, Prisma, Node js, PostgreSQL and Chakra UI.",
-      "page": "https://bookflix-peach.vercel.app/",
+      "page": "https://booksflix.vercel.app/",
       "code": "https://github.com/7Fernando/BooksApp-Front",
       "description": "Winter Is Coming"
     },
@@ -26,6 +26,28 @@
       "page": "https://github.com/7Fernando/Dogs-App",
       "code": "https://github.com/7Fernando/Dogs-App",
       "description": "Winter Is Coming"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "Responsive Landing Page",
+      "image": "./assets/landing.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Responsive Landing Page",
+      "image": "./assets/landing.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Responsive Landing Page",
+      "image": "./assets/landing.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Responsive Landing Page",
+      "image": "./assets/landing.jpg"
     }
   ]
 }

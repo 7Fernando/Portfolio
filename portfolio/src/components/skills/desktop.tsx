@@ -1,23 +1,23 @@
-import js from "../../assets/js.svg";
-import ts from "../../assets/ts.png";
-import css from "../../assets/css.svg";
-import html from "../../assets/html.svg";
-import sass from "../../assets/sass.svg";
-import react from "../../assets/react.svg";
-import redux from "../../assets/redux.svg";
-import nextjs from "../../assets/nextjs.svg";
-import nodejs from "../../assets/nodejs.svg";
-import chakra from "../../assets/chakra.png";
-import prisma from "../../assets/prisma.webp";
-import express from "../../assets/express.png";
-import bootstrap from "../../assets/bootstrap.svg";
-import postgres from "../../assets/postgresql.svg";
-import sequelize from "../../assets/sequelize.svg";
+import js from "/assets/js.svg";
+import ts from "/assets/ts.png";
+import git from "/assets/git.png";
+import css from "/assets/css.svg";
+import html from "/assets/html.svg";
+import sass from "/assets/sass.svg";
+import canva from "/assets/canva.png";
+import react from "/assets/react.svg";
+import redux from "/assets/redux.svg";
+import scrum from "/assets/scrum.png";
+import nextjs from "/assets/nextjs.svg";
+import nodejs from "/assets/nodejs.svg";
+import chakra from "/assets/chakra.png";
+import github from "/assets/github.png";
+import prisma from "/assets/prisma.webp";
+import express from "/assets/express.png";
+import bootstrap from "/assets/bootstrap.svg";
+import postgres from "/assets/postgresql.svg";
+import sequelize from "/assets/sequelize.svg";
 
-import git from "../../assets/git.png";
-import canva from "../../assets/canva.png";
-import github from "../../assets/github.png";
-import scrum from "../../assets/scrum.png";
 import { Box, Flex, Heading, Text, Divider, Image } from "@chakra-ui/react";
 
 const Desktop = () => {
@@ -280,7 +280,7 @@ const Desktop = () => {
                 </Text>
               </Box>
               <Box m="2" mb="0">
-                <Image src={canva} boxSize="100px" m="5"  />
+                <Image src={canva} boxSize="100px" m="5" />
                 <Text
                   textAlign={"center"}
                   fontWeight="bold"

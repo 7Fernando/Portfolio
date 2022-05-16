@@ -1,5 +1,5 @@
 import { BsGithub, BsLinkedin, BsTelegram } from "react-icons/bs";
-import profile from "../../assets/profile.png";
+import profile from "/assets/profile.png";
 import { Box, IconButton, Heading, Image, Text, Flex } from "@chakra-ui/react";
 
 const Desktop = () => {
