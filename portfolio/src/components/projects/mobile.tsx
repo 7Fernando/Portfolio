@@ -30,7 +30,7 @@ const Mobile = () => {
   }, [loading]);
   return <>
   
-  <Heading mx="10" my="5">
+  <Heading mx="10" my="5" textAlign={"center"}>
         Projects
       </Heading>
       <Flex flexWrap={"wrap"} mx="20" flexDir={"column"} justifyContent={"center"} textAlign={"center"}>

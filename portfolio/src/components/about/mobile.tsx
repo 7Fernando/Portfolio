@@ -3,7 +3,7 @@ import { Box, Center, Flex, Heading } from "@chakra-ui/react";
 const Mobile = () => {
   return (
     <>
-      <Box>
+      <Box >
         <Center>
           <Box mx="10" my="5">
             <Heading textAlign={"center"}>About</Heading>

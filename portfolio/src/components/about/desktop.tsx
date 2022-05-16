@@ -3,7 +3,7 @@ import { Box, Center, Flex, Heading, Text } from "@chakra-ui/react";
 const Desktop = () => {
   return (
     <>
-      <Box mx="20" my="20">
+      <Box mx="20" my="20" >
         <Heading>About</Heading>
         <Heading
           as="h4"

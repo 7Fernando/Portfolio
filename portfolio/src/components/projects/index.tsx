@@ -5,10 +5,18 @@ import { Box } from "@chakra-ui/react";
 const Projects = () => {
   return (
     <>
-      <Box display={["none", "none", "block", "block", "block"]} mt="25" >
+      <Box
+        display={["none", "none", "block", "block", "block"]}
+        mt="25"
+        id="projects"
+      >
         <Desktop />
       </Box>
-      <Box display={["block", "block", "none", "none", "none"]} mt="25">
+      <Box
+        display={["block", "block", "none", "none", "none"]}
+        mt="25"
+        id="projectsP"
+      >
         <Mobile />
       </Box>
     </>

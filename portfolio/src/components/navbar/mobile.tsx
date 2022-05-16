@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Box, Flex, IconButton, Button } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+import { HashLink as Link } from "react-router-hash-link";
 
 const MobileNavBar = () => {
   const [display, changeDisplay] = useState("none");
@@ -38,17 +39,42 @@ const MobileNavBar = () => {
           </Flex>
 
           <Flex flexDir="column" align="center">
-            <Button as="a" variant="ghost" aria-label="Home" my={5} w="100%">
-              About me
-            </Button>
-
-            <Button as="a" variant="ghost" aria-label="About" my={5} w="100%">
-              Projects
-            </Button>
-
-            <Button as="a" variant="ghost" aria-label="Contact" my={5} w="100%">
-              Contact
-            </Button>
+            <Link to="#aboutP" smooth>
+              <Button
+                as="a"
+                variant="ghost"
+                aria-label="about"
+                my={5}
+                w="100%"
+                onClick={() => changeDisplay("none")}
+              >
+                About
+              </Button>
+            </Link>
+            <Link to="#projectsP" smooth>
+              <Button
+                as="a"
+                variant="ghost"
+                aria-label="projects"
+                my={5}
+                w="100%"
+                onClick={() => changeDisplay("none")}
+              >
+                Projects
+              </Button>
+            </Link>
+            <Link to="#contactP" smooth>
+              <Button
+                as="a"
+                variant="ghost"
+                aria-label="contact"
+                my={5}
+                w="100%"
+                onClick={() => changeDisplay("none")}
+              >
+                Contact
+              </Button>
+            </Link>
           </Flex>
         </Flex>
       </Box>

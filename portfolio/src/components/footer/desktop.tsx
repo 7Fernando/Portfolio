@@ -3,7 +3,7 @@ import { BsSuitHeartFill } from "react-icons/bs";
 const Desktop = () => {
   return (
     <>
-      <Flex justifyContent={"center"} pt="35px" bg="#FFDE59" h="100px">
+      <Flex justifyContent={"center"} pt="35px" bg="#FFDE59" h="100px" >
         <Heading
           as="h5"
           size="md"
@@ -12,7 +12,7 @@ const Desktop = () => {
           justifyContent={"center"}
         >
           Made with{" "}
-          <Box mt="1" mx="2">
+          <Box mt="1px" mx="2">
             <BsSuitHeartFill />
           </Box>{" "}
           by Fernando Cabezas
