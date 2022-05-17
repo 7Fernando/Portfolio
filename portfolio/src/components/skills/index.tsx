@@ -12,7 +12,7 @@ const Skills = () => {
         <DesktopNavBar />
       </Box>
       <Box
-        display={["flex", "flex", "none", "none", "none"]}
+        display={["block", "block", "none", "none", "none"]}
         
       >
         <MobileNavBar />
