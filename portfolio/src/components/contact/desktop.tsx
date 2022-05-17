@@ -12,15 +12,28 @@ import {
   IconButton,
 } from "@chakra-ui/react";
 import { BsGithub, BsLinkedin, BsTelegram } from "react-icons/bs";
-
+import { EmailIcon } from "@chakra-ui/icons";
 const Desktop = () => {
   return (
     <>
       <Box mx="20" my="20">
         <Heading>Contact</Heading>
-        <Box my="10" >
+        <Box mt="5">
+          <a href="mailto:fernandocabezas_@outlook.com">
+            <Button
+              leftIcon={<EmailIcon />}
+              bg="#FFDE59"
+              variant="solid"
+              w="100%"
+              size="lg"
+            >
+              Send email
+            </Button>
+          </a>
+        </Box>
+        <Box my="10">
           {" "}
-          <Flex mx="5" justifyContent={"space-between"}  >
+          <Flex mx="5" justifyContent={"space-between"}>
             <a target="_blank" href="https://github.com/7Fernando">
               <IconButton
                 size="lg"
@@ -49,7 +62,8 @@ const Desktop = () => {
               />
             </a>
           </Flex>
-          <Flex mx="5" w="full" my="10" >
+       
+          {/* <Flex mx="5" w="full" my="10" >
             <FormControl isRequired mr="5" >
               <FormLabel htmlFor="name">Name</FormLabel>
               <Input id="name" placeholder="Your name" />
@@ -69,7 +83,7 @@ const Desktop = () => {
               rows={6}
               resize="none"
             />
-          </FormControl>
+          </FormControl> */}
         </Box>
       </Box>
     </>

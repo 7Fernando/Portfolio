@@ -92,7 +92,7 @@ const Mobile = () => {
                         bg="#FFDE59 "
                         variant="solid"
                       >
-                        Visit Page
+                        {project?.id === 3 ?"Page coming soon...":"Visit Page"} 
                       </Button>
                     </Box>
                   </a>

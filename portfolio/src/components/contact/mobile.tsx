@@ -18,7 +18,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
-
+import { EmailIcon } from "@chakra-ui/icons";
 import { MdEmail, MdOutlineEmail } from "react-icons/md";
 import { BsGithub, BsLinkedin, BsTelegram } from "react-icons/bs";
 
@@ -29,7 +29,21 @@ const Mobile = () => {
         <Flex justify={"center"}>
         <Heading>Contact</Heading>
         </Flex>
+        <Box mt="5">
+          <a href="mailto:fernandocabezas_@outlook.com">
+            <Button
+              leftIcon={<EmailIcon />}
+              bg="#FFDE59"
+              variant="solid"
+              w="100%"
+              size="lg"
+            >
+              Send email
+            </Button>
+          </a>
+        </Box>
         <Box my="10">
+
           {" "}
           <Flex justifyContent={"space-between"}>
             <a target="_blank" href="https://github.com/7Fernando">
@@ -60,7 +74,7 @@ const Mobile = () => {
               />
             </a>
           </Flex>
-          <Flex  w="full" my="10" flexDir={"column"} >
+          {/* <Flex  w="full" my="10" flexDir={"column"} >
             <FormControl isRequired  w="full" >
               <FormLabel htmlFor="name" textAlign={"center"}>Name</FormLabel>
               <Input id="name" placeholder="Your name" />
@@ -81,7 +95,7 @@ const Mobile = () => {
               resize="none"
             />
           </FormControl>
-          </Flex>
+          </Flex> */}
          
         </Box>
       </Box>
