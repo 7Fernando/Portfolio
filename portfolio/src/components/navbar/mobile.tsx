@@ -63,6 +63,18 @@ const MobileNavBar = () => {
                 Projects
               </Button>
             </Link>
+            <a target={"_blank"} href="/cv">
+          <Button
+            as="a"
+            variant="ghost"
+            aria-label="Contact"
+            my={5}
+            w="100%"
+            size="lg"
+          >
+            CV
+          </Button>
+        </a>
             <Link to="#contactP" smooth>
               <Button
                 as="a"

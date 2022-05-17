@@ -5,17 +5,28 @@ import Skills from "./components/skills";
 import Navbar from "./components/navbar";
 import Contact from "./components/contact";
 import Projects from "./components/projects";
-
+import Cv from "./components/cv";
+import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Me />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
+      <Routes>
+        <Route path="/cv" element={<Cv />} />
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar />
+              <Me />
+              <About />
+              <Projects />
+              <Skills />
+              <Contact />
+              <Footer />
+            </>
+          }
+        />
+      </Routes>
     </>
   );
 };

@@ -6,11 +6,11 @@ const Mobile = () => {
   return (
     <>
       {" "}
-      <Flex justifyContent={"center"} pt="35px" bg="#FFDE59" h="700px" >
+      <Flex justifyContent={"center"} pt="35px" bg="#FFDE59" h="200px" >
         <Heading
           as="h5"
           size="xs"
-          w="600px"
+          h="50px"
           display={"flex"}
           justifyContent={"center"}
         >
