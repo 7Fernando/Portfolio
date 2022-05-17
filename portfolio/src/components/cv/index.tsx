@@ -1,11 +1,11 @@
-import cv from "/assets/fernandoCabezas.pdf";
+import cv from "/fernandoCabezas.pdf";
 import { Box, Button, Text } from "@chakra-ui/react";
 const Cv = () => {
   return (
     <>
       <Box display={["none", "none", "block", "block", "block"]}>
         <object
-          data="/assets/fernandoCabezas.pdf"
+          data={cv}
           type="application/pdf"
           width="100%"
           height="900vh"
@@ -14,7 +14,7 @@ const Cv = () => {
       <Box display={["flex", "flex", "none", "none", "none"]} mt="20" textAlign={"center"} flexDir="column">
         <Text fontWeight={"bold"} textAlign="center" color="gray">Your device cannot view the PDFs, click here to download it</Text>
         <a
-          href={"/assets/fernandoCabezas.pdf"}
+          href={"/fernandoCabezas.pdf"}
           id="enlaceDescargarPdf"
           download={cv}
         >
