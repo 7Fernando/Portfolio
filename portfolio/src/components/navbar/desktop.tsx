@@ -5,7 +5,7 @@ const DesktopNavBar = () => {
   return (
     <>
       <Box display="flex" mr="2">
-        <Link to="#about">
+        <Link to="#about" smooth>
           <Button
             as="a"
             variant="ghost"

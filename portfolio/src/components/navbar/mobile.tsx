@@ -63,7 +63,7 @@ const MobileNavBar = () => {
                 Projects
               </Button>
             </Link>
-            <Link2 to="/cv2">
+            <Link2 to="/cv2" >
               <Button
                 as="a"
                 variant="ghost"
