@@ -5,7 +5,7 @@ const Cv = () => {
     <>
       <Box display={["none", "none", "block", "block", "block"]}>
         <object
-          data={cv}
+          data="/assets/fernandoCabezas.pdf"
           type="application/pdf"
           width="100%"
           height="900vh"

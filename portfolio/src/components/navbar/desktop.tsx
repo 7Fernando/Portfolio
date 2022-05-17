@@ -29,7 +29,7 @@ const DesktopNavBar = () => {
             Projects
           </Button>
         </Link>
-        <a target={"_blank"} href="/cv">
+        <a  target={"_blank"} href="https://fernandocabezas.vercel.app/cv">
           <Button
             as="a"
             variant="ghost"
