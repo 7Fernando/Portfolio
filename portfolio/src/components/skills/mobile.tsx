@@ -41,8 +41,8 @@ const Mobile = () => {
         <Heading textAlign={"center"} my="10">
           Skills
         </Heading>
-        <Accordion allowToggle>
-          <AccordionItem bg="#FFDE59">
+        <Accordion allowToggle >
+          <AccordionItem bg="#FFDE59" borderRadius={"md"} mb="1">
             <h2>
               <AccordionButton>
                 <Box flex="1" fontWeight={"bold"} textAlign="center">
@@ -164,7 +164,7 @@ const Mobile = () => {
               </Flex>
             </AccordionPanel>
           </AccordionItem>
-          <AccordionItem bg="#FFDE59">
+          <AccordionItem bg="#FFDE59" borderRadius={"md"} mb="1">
             <h2>
               <AccordionButton>
                 <Box flex="1" fontWeight={"bold"} textAlign="center">
@@ -175,7 +175,7 @@ const Mobile = () => {
             </h2>
             <AccordionPanel w="full">
               <Flex justifyContent={"center"}>
-                <Flex mt="5" flexWrap={"wrap"} justifyContent={"center"}>
+                <Flex  flexWrap={"wrap"} justifyContent={"center"}>
                   <Box  >
                     <Image src={js} boxSize="50px" m="5" />
                     <Text
@@ -251,7 +251,7 @@ const Mobile = () => {
               </Flex>
             </AccordionPanel>
           </AccordionItem>
-          <AccordionItem bg="#FFDE59">
+          <AccordionItem bg="#FFDE59" borderRadius={"md"}>
             <h2>
               <AccordionButton>
                 <Box flex="1" fontWeight={"bold"} textAlign="center">
@@ -262,7 +262,7 @@ const Mobile = () => {
             </h2>
             <AccordionPanel w="full">
               <Flex justifyContent={"center"}>
-                <Flex mt="5" flexWrap={"wrap"} justifyContent={"center"}>
+                <Flex  flexWrap={"wrap"} justifyContent={"center"}>
                   <Box  >
                     <Flex justifyContent={"center"}>
                       <Image src={git} boxSize="50px" m="5" />
