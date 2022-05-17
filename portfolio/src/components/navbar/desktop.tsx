@@ -1,6 +1,6 @@
 import { Box, Button } from "@chakra-ui/react";
 import { HashLink as Link } from "react-router-hash-link";
-
+import { Link as Link2 } from "react-router-dom";
 const DesktopNavBar = () => {
   return (
     <>
@@ -29,7 +29,8 @@ const DesktopNavBar = () => {
             Projects
           </Button>
         </Link>
-        <a  target={"_blank"} href="/cv">
+        {/* <a  target={"_blank"} href="/cv"> */}
+        <Link2 to="/cv2">
           <Button
             as="a"
             variant="ghost"
@@ -40,7 +41,8 @@ const DesktopNavBar = () => {
           >
             CV
           </Button>
-        </a>
+        </Link2>
+        {/* </a> */}
         <Link to="#contact" smooth>
           <Button
             as="a"

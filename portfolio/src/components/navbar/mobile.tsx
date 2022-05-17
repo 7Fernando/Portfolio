@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Box, Flex, IconButton, Button } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { HashLink as Link } from "react-router-hash-link";
-
+import { Link as Link2 } from "react-router-dom";
 const MobileNavBar = () => {
   const [display, changeDisplay] = useState("none");
   return (
@@ -63,18 +63,18 @@ const MobileNavBar = () => {
                 Projects
               </Button>
             </Link>
-            <a target={"_blank"} href="/cv">
-          <Button
-            as="a"
-            variant="ghost"
-            aria-label="Contact"
-            my={5}
-            w="100%"
-            size="lg"
-          >
-            CV
-          </Button>
-        </a>
+            <Link2 to="/cv2">
+              <Button
+                as="a"
+                variant="ghost"
+                aria-label="Contact"
+                my={5}
+                w="100%"
+                size="lg"
+              >
+                CV
+              </Button>
+            </Link2>
             <Link to="#contactP" smooth>
               <Button
                 as="a"

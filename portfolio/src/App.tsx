@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/cv" element={<Cv />} />
+        <Route path="/cv2" element={<Cv />} />
         <Route
           path="/"
           element={
